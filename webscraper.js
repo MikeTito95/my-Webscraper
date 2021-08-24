@@ -31,6 +31,4 @@ request(link, (req, res, body) =>  {
         console.log(href);
       });
     })
-    .catch((err) => {
-      console.log(err.response.body);
-    });
+   
